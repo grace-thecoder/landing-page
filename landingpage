@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+    <style>
+        html {
+            background: white;
+            margin: 0;
+            padding: 2rem 2rem;
+            font-family: sans-serif;
+            background: url('leohoho.jpg');
+    background-size: cover;
+        }
+        .buttons{
+            background-color: green;
+            color: white;
+            border: .1rem solid green;
+    border-radius: 5rem;
+    margin: .5rem;
+    font-size: 1rem;
+    padding: .5rem .5rem;
+    transition: all .07s ease;
+    width: 10rem;
+    text-align: center;
+    text-shadow: 0 0 .5rem white;
+        }
+        .butt{
+            background-color: white;
+            color: green;
+            border: .1rem solid green;
+    border-radius: 5rem;
+    margin: .5rem;
+    font-size: 1rem;
+    padding: .5rem .5rem;
+    transition: all .07s ease;
+    width: 10rem;
+    text-align: center;
+    text-shadow: 0 0 .5rem white;
+        }
+        h1{
+text-align: left;
+padding-top: 7rem;
+position: relative;
+color: white;
+        }
+         h5, h6{
+            color: whitesmoke;
+text-align: left;
+position: relative;
+        }
+        .label{
+            color: white;
+            font-size: small;
+            position: absolute;
+            align-self: flex-end;
+        bottom: 1rem;
+        }
+        .navbar{
+        float: right;
+        color: white;
+        }
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            float: right;
+            color: white;
+        }
+        li {
+            display: inline;
+            padding: 1rem 1rem;
+            color: white;
+        }
+     a:link {
+color: white;
+        }
+        a:hover{
+            color: palevioletred;
+        }
+        a:active{ 
+            color: red;
+        }
+        .img {
+         top: auto;   
+         left: auto;
+         max-width: 5rem;
+         max-height: 5rem;
+        }
+    </style>
+</head>
+<body>
+    <Div>
+    <header>
+        <img class="img" src="C:\Users\HP\Documents\OJTECH\ABIOLA GRACE 1.jpg" alt="ABIOLA">
+        <nav class="navbar">
+    <ul>
+        <li>
+            <a href="#">How it works</a>
+        </li>
+        <li>
+            <a href="#">About us</a>
+        </li>
+        <li>
+            <a href="#">Contact</a>
+        </li>
+    </ul>
+    </nav>
+    </header>
+    </Div>
+    <p>
+        <h1>
+Eliminate<br/> your food intolerance
+    </h1>
+    <h5>In 45 days or less or your money back</h5>
+    <h6>700+ items tested for only $47</h6>
+</p>
+<button class="buttons">Get test</button>
+<button class="butt">Watch video</button>
+<div class="label">
+<label for="See more">See more</label>
+<select>
+    <option></option>
+</select>
+</div>
+</body>
+</html>
